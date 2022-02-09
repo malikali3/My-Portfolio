@@ -1,6 +1,8 @@
 body{
     min-height: 1000px;
     min-width: 500px;
+    background-image: linear-gradient(to right, black, #101820FF);
+    
 }
 
 ul {
@@ -18,37 +20,92 @@ ul li {
 
 div {
   position: relative;
-  left: 250px;
-  top: -50px;
+  left: 400px;
+  margin: 20px;
+  top: -80px;
 }
 
  .onebar {
-  width: 35px;
+ border-radius: 100px;
+  width: 60px;
   height: 5px;
-  background-color: red;
+  background-color: darkblue;
   margin: 6px 0;
   }
 
   .twobar {
-    width: 35px;
+    border-radius: 100px;
+    width: 50px;
     height: 5px;
-    background-color: green;
+    background-color: grey;
     margin: 7px 0;
 }
 
   .threebar {
+    border-radius: 100px;
   width: 35px;
   height: 5px;
-  background-color: orange;
+  background-color: white;
   margin: 8px 0;  
 }
 
-  .headline {
-  position: relative;
-  left: 70px;
+ h1{
+     font-style: normal;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*    
+      creating a gradient text */
+      background: linear-gradient(to right, #F2AA4CFF, white);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     background-clip: none;
+     font-size: 50px
+    }
+
+ h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(
+        to right, #95DBE5FF, #078282FF, #339E66FF);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     background-clip: none;
+     
+
 }
 
-p{
-  position: relative;
-  left: -50px;
+ h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(
+        to right, #95DBE5FF, #078282FF, #339E66FF);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     background-clip: none;
+     
+}
+
+ p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #eedd44);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     background-clip: none;
+     position: relative;
+  left: 50px;
+     
+}
+
+
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 150px;
+    left: -300px;
 }
