@@ -1,0 +1,54 @@
+body{
+    min-height: 1000px;
+    min-width: 500px;
+}
+
+ul {
+    /* to remove dots in list */
+  list-style: none;   
+}
+
+ul li {
+    /* to make all the elements display in line */
+  display: inline;
+  position: relative;
+  left: 600px;
+  top: -50px;
+}
+
+div {
+  position: relative;
+  left: 250px;
+  top: -50px;
+}
+
+ .onebar {
+  width: 35px;
+  height: 5px;
+  background-color: red;
+  margin: 6px 0;
+  }
+
+  .twobar {
+    width: 35px;
+    height: 5px;
+    background-color: green;
+    margin: 7px 0;
+}
+
+  .threebar {
+  width: 35px;
+  height: 5px;
+  background-color: orange;
+  margin: 8px 0;  
+}
+
+  .headline {
+  position: relative;
+  left: 70px;
+}
+
+p{
+  position: relative;
+  left: -50px;
+}
