@@ -51,10 +51,12 @@ div {
 h1 {
   font-style: normal;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /*creating a gradient text */ 
-  background: linear-gradient(to right, #F2aa4cff, white);
+
+  /* creating a gradient text */
+  background: linear-gradient(to right, #f2aa4cff, white);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+
   /* background-clip: none; */
   font-size: 50px;
 }
@@ -64,7 +66,8 @@ h2 {
   background: linear-gradient(to right, #95dbe5ff, #078282ff, #339e66ff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /*background-clip: none;*/
+
+  /* background-clip: none; */
 }
 
 h3 {
@@ -72,7 +75,8 @@ h3 {
   background: linear-gradient(to right, #95dbe5ff, #078282ff, #339e66ff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /*background-clip: none;*/
+
+  /* background-clip: none; */
 }
 
 p {
@@ -80,6 +84,7 @@ p {
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ed4);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+
   /* background-clip: none; */
   position: relative;
   left: 50px;
