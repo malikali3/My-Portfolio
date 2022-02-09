@@ -1,0 +1,6 @@
+test.md
+node_modules
+
+*.exe
+
+// the above format is used to ignore the files with same formats
