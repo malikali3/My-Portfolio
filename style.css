@@ -5,7 +5,7 @@ body {
   left: 0px;
   top: 0px;
   background: white;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
 }
 
@@ -24,7 +24,7 @@ body {
   border-radius: 100px;
   width: 25px;
   height: 4px;
-  background-color:#6070ff;
+  background-color: #6070ff;
   margin: 6px 0;
   position: relative;
   top: -25px;
@@ -35,21 +35,21 @@ body {
   border-radius: 100px;
   width: 25px;
   height: 4px;
-  background-color:#6070ff;
+  background-color: #6070ff;
   margin: 6px 0;
   margin-top: 5px;
   position: relative;
   top: -25px;
   left: 400px;
 }
-  
+
 h1 {
   position: static;
   width: 76px;
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -60,7 +60,7 @@ h1 {
   color: #6070ff;
 }
 
-.circle{
+.circle {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -69,7 +69,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.lineoncircle{
+.lineoncircle {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
@@ -79,7 +79,7 @@ h1 {
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
-.tcircle{
+.tcircle {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -89,7 +89,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.greyrect{
+.greyrect {
   position: absolute;
   width: 95.58px;
   height: 22.02px;
@@ -99,7 +99,7 @@ h1 {
   transform: rotate(-30deg);
 }
 
-.bigcurve{
+.bigcurve {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -108,7 +108,7 @@ h1 {
   background: transparent;
 }
 
-.pizzaimg{
+.pizzaimg {
   position: absolute;
   width: 38.5px;
   height: 19.25px;
@@ -118,13 +118,13 @@ h1 {
   transform: rotate(-156.88deg);
 }
 
-h2{
+h2 {
   position: relative;
   width: 327px;
   height: 170px;
   left: 24px;
   top: 170px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -135,16 +135,16 @@ h2{
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
-p{
+p {
   position: relative;
   width: 327px;
   height: 146px;
   left: 24px;
   top: 220px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -153,16 +153,16 @@ p{
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
-.con{
+.con {
   position: relative;
   width: 117px;
   height: 24px;
   left: 12px;
   top: 240px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -171,7 +171,7 @@ p{
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 8px;
 }
 
 ul li {
@@ -180,10 +180,10 @@ ul li {
   position: relative;
   top: 230px;
   margin: 10px;
-  right: 30px; 
+  right: 30px;
 }
 
-.halfcircle{
+.halfcircle {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -192,7 +192,7 @@ ul li {
   background: transparent;
 }
 
-.tcircle2{
+.tcircle2 {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -202,7 +202,7 @@ ul li {
   box-sizing: border-box;
 }
 
-.tcurve{
+.tcurve {
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -212,17 +212,17 @@ ul li {
   transform: rotate(69.41deg);
 }
 
-.trect{
+.trect {
   position: absolute;
   width: 68.06px;
   height: 12.18px;
   left: 191.82px;
   top: 850px;
   background: #ebebff;
- transform: rotate(23.34deg);
+  transform: rotate(23.34deg);
 }
 
-.purcircle{
+.purcircle {
   position: absolute;
   width: 20px;
   height: 20px;
