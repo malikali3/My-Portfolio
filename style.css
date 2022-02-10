@@ -2,8 +2,8 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
   background: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -178,7 +178,7 @@ ul li {
   /* to make all the elements display in line */
   display: inline;
   position: relative;
-  top: 230px;
+  top: 250px;
   margin: 10px;
   right: 30px;
 }
