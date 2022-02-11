@@ -178,6 +178,10 @@ ul li {
   color: #7f8cff;
 }
 
+.html:hover {
+  background-color: greenyellow;
+}
+
 .css {
   display: flex;
   flex-direction: row;
@@ -196,6 +200,10 @@ ul li {
   color: #6070ff;
 }
 
+.css:hover {
+  background-color: aqua;
+}
+
 .js {
   display: flex;
   flex-direction: row;
@@ -212,6 +220,10 @@ ul li {
   margin: 1px 10px;
   border-color: transparent;
   color: #6070ff;
+}
+
+.js:hover {
+  background-color: blueviolet;
 }
 
 .sp {
@@ -234,6 +246,10 @@ ul li {
   color: #396df2;
 }
 
+.sp:hover{
+  background-color: #172b4d;
+}
+
 .text {
   color: #6070ff;
 }
@@ -248,13 +264,13 @@ ul li {
   align-items: center;
   color: #172b4d;
   position: relative;
-  top: 150px;
+  top: 230px;
   left: 30px;
 }
 
 .about {
   position: relative;
-  top: 1000px;
+  top: 2200px;
 }
 
 .resume {
@@ -308,10 +324,11 @@ ul li {
 .contactme {
   position: absolute;
   width: 375px;
-  height: 500px;
+  height: 600px;
   left: 1px;
-  top: 1900px;
+  top: 3300px;
   background: #6070ff;
+  border-top-left-radius: 50px;
 }
 
 #dot2 {
@@ -323,8 +340,8 @@ ul li {
 
 .contact {
   position: relative;
-  left: 100px;
-  top: 20px;
+  left: 80px;
+  top: -80px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -386,4 +403,36 @@ ul li {
 
 #malik {
   text-decoration: none;
+}
+
+.greyrect {
+  position: relative;
+  top: 20px;
+  left: 300px;
+  width: 74.7px;
+  height: 17.21px;
+  background: #7F8CFF;
+  transform: rotate(-23.18deg);
+}
+
+.greyrect2 {
+  position: relative;
+  width: 76.17px;
+  height: 13.63px;
+  left: 200px;
+  top: 500px;
+  background: #7F8CFF;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+
+#whitecur {
+  position: relative;
+  left: 320px;
+  top: -6px;
+}
+
+#whitedot {
+  position: relative;
+  left: 200px;
+  top: 430px;
 }
