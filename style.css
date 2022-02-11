@@ -74,6 +74,18 @@ ul li {
   margin-left: 40px;
 }
 
+#port2 {
+  margin: 20px;
+  position: relative;
+  margin-left: 40px;
+}
+
+#port3 {
+  margin: 20px;
+  position: relative;
+  margin-left: 40px;
+}
+
 .title {
   position: static;
   width: 295px;
@@ -118,6 +130,28 @@ ul li {
   margin: 1px 12px;
 }
 
+#dot1a {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 80px;
+  top: -25px;
+  flex: none;
+  order: 1;
+  margin: 1px 12px;
+}
+
+#dot2a {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 80px;
+  top: -25px;
+  flex: none;
+  order: 1;
+  margin: 1px 12px;
+}
+
 .back {
   position: relative;
   width: 88px;
@@ -134,6 +168,28 @@ ul li {
 }
 
 #dot1 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 210px;
+  top: -65px;
+  flex: none;
+  order: 1;
+  margin: 1px 12px;
+}
+
+#dot2 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  left: 210px;
+  top: -65px;
+  flex: none;
+  order: 1;
+  margin: 1px 12px;
+}
+
+#dot3 {
   position: relative;
   width: 8px;
   height: 8px;
@@ -246,7 +302,7 @@ ul li {
   color: #396df2;
 }
 
-.sp:hover{
+.sp:hover {
   background-color: #172b4d;
 }
 
@@ -411,7 +467,7 @@ ul li {
   left: 300px;
   width: 74.7px;
   height: 17.21px;
-  background: #7F8CFF;
+  background: #7f8cff;
   transform: rotate(-23.18deg);
 }
 
@@ -421,13 +477,13 @@ ul li {
   height: 13.63px;
   left: 200px;
   top: 500px;
-  background: #7F8CFF;
+  background: #7f8cff;
   transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
 }
 
 #whitecur {
   position: relative;
-  left: 320px;
+  left: 300px;
   top: -6px;
 }
 
