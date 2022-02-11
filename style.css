@@ -45,7 +45,7 @@ ul li {
 }
 
 .card1 {
-  display: flexbox;
+  display: inline-flexbox;
   grid-template-columns: auto;
   transition: 0.3s;
   margin-bottom: 20px;
@@ -59,7 +59,7 @@ ul li {
 }
 
 .card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1); 
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
 
 .container {
@@ -263,6 +263,7 @@ ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #6070ff;
   padding: 4px 12px;
   position: relative;
   width: 100px;
