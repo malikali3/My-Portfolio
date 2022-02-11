@@ -16,6 +16,7 @@ body {
   left: 300px;
   color: #6070ff;
   border-radius: 50%;
+  font-size:30px;
 }
 
 h1 {
@@ -242,12 +243,12 @@ ul li {
   left: 50px;
 }
 
-#port1{
+#port1 {
   margin: 20px;
   position: relative; 
 }
 
-.title{
+.title {
   position: static;
   width: 295px;
   height: 36px;
@@ -263,7 +264,7 @@ ul li {
   margin: 12px 15px;
 }
 
-.canopy{
+.canopy {
   position: static;
   width: 55px;
   height: 16px;
@@ -280,7 +281,7 @@ ul li {
   margin: 1px 20px;
 }
 
-#dot{
+#dot {
   position: relative;
   width: 8px;
   height: 8px;
@@ -291,7 +292,7 @@ ul li {
   margin: 0px 12px;
 }
 
-.back{
+.back {
   position: relative;
   width: 88px;
   height: 16px;
@@ -306,7 +307,7 @@ ul li {
   margin: 1px 90px;
 }
 
-#dot1{
+#dot1 {
   position: relative;
   width: 8px;
   height: 8px;
@@ -317,7 +318,7 @@ ul li {
   margin: 1px 12px;
 }
 
-.content{
+.content {
   position: relative;
   width: 295px;
   height: 76px;
@@ -333,7 +334,7 @@ ul li {
   margin: 12px 4px;
 }
 
-.html{
+.html {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -350,7 +351,7 @@ ul li {
   border-color: transparent;
 }
 
-.css{
+.css {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -367,7 +368,7 @@ ul li {
   border-color: transparent;
   }
 
-  .js{
+  .js {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -384,7 +385,7 @@ ul li {
   border-color: transparent;
 }
 
-.sp{
+.sp {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -403,7 +404,7 @@ ul li {
   background-color: transparent;
 }
 
-.text{
+.text {
   color: #6070FF;;
 }
 
@@ -422,12 +423,12 @@ ul li {
   left: 30px;
 }
 
-.about{
+.about {
   position: relative;
   top: 1000px;
 }
 
-.resume{
+.resume {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -446,29 +447,32 @@ ul li {
   background-color: transparent;
 }
 
-.myskills{
+.myskills {
   position: relative;
   top: 120px;
   display: inline-grid;
   margin-bottom: 10px;
 }
 
-#skill{
+#skill {
   position: relative;
-  top: 170px;
+  top: 150px;
+  text-decoration:none
 }
 
-#lan{
+#lan {
   position: relative;
   top: 180px;
+  text-decoration:none
 }
 
-#frame{
+#frame {
   position: relative;
   top: 240px;
+  text-decoration:none
 }
 
-.contactme{
+.contactme {
 position: absolute;
 width: 375px;
 height: 500px;
@@ -477,14 +481,14 @@ top: 1900px;
 background: #6070FF;
 }
 
-#dot2{
+#dot2 {
   width: 15px;
   position: relative;
   top: 20px;
   left: 200px;
 }
 
-.contact{
+.contact {
   position: relative;
   left: 100px;
   top: 20px;
@@ -497,7 +501,7 @@ background: #6070FF;
   color: white;
 }
 
-.name{
+.name {
   position: absolute;
   height: 30px;
   width: 300px;
@@ -509,7 +513,7 @@ background: #6070FF;
   border-radius: 8px;
 }
 
-.email{
+.email {
   position: absolute;
   height: 30px;
   width: 300px;
@@ -521,7 +525,7 @@ background: #6070FF;
   border-radius: 8px;
 }
 
-.msg{
+.msg {
   position: absolute;
   height: 150px;
   width: 300px;
@@ -533,11 +537,11 @@ background: #6070FF;
   border-radius: 8px;
 }
 
-.text1{
+.text1 {
   color: blue;
 }
 
-.touch1{
+.touch1 {
   background-color: white;
   border-radius: 10%;
   position: relative;
@@ -546,3 +550,6 @@ background: #6070FF;
   border-color: transparent;
 }
 
+#malik {
+  text-decoration: none
+}
