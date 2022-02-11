@@ -16,6 +16,7 @@ body {
   left: 300px;
   color: #6070ff;
   border-radius: 50%;
+  font-size:30px
 }
 
 h1 {
@@ -56,7 +57,6 @@ h1 {
 }
 
 .tcircle {
-  background-image: url("imgs/circle.png");
   position: absolute;
   width: 15px;
   height: 15px;
@@ -77,7 +77,6 @@ h1 {
 }
 
 .bigcurve {
-  background-image: url("imgs/bigcurve.png");
   position: absolute;
   width: 80px;
   height: 90px;
@@ -87,14 +86,12 @@ h1 {
 }
 
 .pizzaimg {
-  background-image: url("imgs/pizza.png");
   position: absolute;
   width: 20px;
   height: 19.25px;
   left: 16.04px;
   top: 161.47px;
   background: transparent;
-  
 }
 
 #secondh1 {
@@ -173,7 +170,6 @@ ul li {
 }
 
 .tcircle2 {
-  background-image: url("imgs/tcircle.png");
   position: absolute;
   width: 15px;
   height: 15px;
@@ -184,7 +180,6 @@ ul li {
 }
 
 .tcurve {
-  background-image: url("imgs/tcurve.png");
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -222,11 +217,15 @@ ul li {
   position: static;
   width: 380px;
   height: 550px;
-  /* background: url(imgs/pizza.png); */
   border-radius: 8px;
   flex: none;
   order: 1;
   flex-grow: 1;
   margin: 12px 1px;
   border: solid 1px grey ;
+}
+
+#malik{
+  text-decoration: none;
+  color: #7f8cff;
 }
