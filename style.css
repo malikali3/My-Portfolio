@@ -9,38 +9,13 @@ body {
   font-size: 22px;
 }
 
-.onebar {
-  border-radius: 100px;
-  width: 25px;
-  height: 4px;
-  background-color: #6070ff;
+#bars {
   margin: 6px 0;
   position: relative;
-  top: -25px;
-  left: 400px;
-}
-
-.twobar {
-  border-radius: 100px;
-  width: 25px;
-  height: 4px;
-  background-color: #6070ff;
-  margin: 6px 0;
-  position: relative;
-  top: -25px;
-  left: 400px;
-}
-
-.threebar {
-  border-radius: 100px;
-  width: 25px;
-  height: 4px;
-  background-color: #6070ff;
-  margin: 6px 0;
-  margin-top: 5px;
-  position: relative;
-  top: -25px;
-  left: 400px;
+  top: -3px;
+  left: 300px;
+  color: #6070ff;
+  border-radius: 50%;
 }
 
 h1 {
@@ -61,10 +36,11 @@ h1 {
 }
 
 .circle {
+  background-image: url("imgs/circle.png");
   position: absolute;
   width: 15px;
   height: 15px;
-  left: 214px;
+  left: 210px;
   top: 110px;
   box-sizing: border-box;
 }
@@ -73,13 +49,14 @@ h1 {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
-  left: 210px;
+  left: 213px;
   top: 113px;
   background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
 .tcircle {
+  background-image: url("imgs/circle.png");
   position: absolute;
   width: 15px;
   height: 15px;
@@ -100,25 +77,27 @@ h1 {
 }
 
 .bigcurve {
+  background-image: url("imgs/bigcurve.png");
   position: absolute;
-  width: 105px;
-  height: 105px;
+  width: 80px;
+  height: 90px;
   left: 380px;
   top: 180px;
   background: transparent;
 }
 
 .pizzaimg {
+  background-image: url("imgs/pizza.png");
   position: absolute;
-  width: 38.5px;
+  width: 20px;
   height: 19.25px;
   left: 16.04px;
   top: 161.47px;
   background: transparent;
-  transform: rotate(-156.88deg);
+  
 }
 
-h2 {
+#secondh1 {
   position: relative;
   width: 327px;
   height: 170px;
@@ -184,6 +163,7 @@ ul li {
 }
 
 .halfcircle {
+  background-image: url("imgs/halfcircle.png");
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -193,6 +173,7 @@ ul li {
 }
 
 .tcircle2 {
+  background-image: url("imgs/tcircle.png");
   position: absolute;
   width: 15px;
   height: 15px;
@@ -203,6 +184,7 @@ ul li {
 }
 
 .tcurve {
+  background-image: url("imgs/tcurve.png");
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -229,4 +211,22 @@ ul li {
   left: 237px;
   top: 830px;
   background: transparent;
+}
+
+.card1 {
+  display: flexbox;
+  grid-template-columns:auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 20px;
+  position: static;
+  width: 380px;
+  height: 550px;
+  /* background: url(imgs/pizza.png); */
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 1px;
+  border: solid 1px grey ;
 }
