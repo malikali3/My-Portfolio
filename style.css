@@ -16,7 +16,7 @@ body {
   left: 300px;
   color: #6070ff;
   border-radius: 50%;
-  font-size:30px
+  font-size: 30px;
 }
 
 h1 {
@@ -160,7 +160,6 @@ ul li {
 }
 
 .halfcircle {
-  background-image: url("imgs/halfcircle.png");
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -206,23 +205,6 @@ ul li {
   left: 237px;
   top: 830px;
   background: transparent;
-}
-
-.card1 {
-  display: flexbox;
-  grid-template-columns:auto;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  margin-bottom: 20px;
-  position: static;
-  width: 380px;
-  height: 550px;
-  border-radius: 8px;
-  flex: none;
-  order: 1;
-  flex-grow: 1;
-  margin: 12px 1px;
-  border: solid 1px grey ;
 }
 
 #malik{
