@@ -47,23 +47,19 @@ ul li {
 .card1 {
   display: flexbox;
   grid-template-columns: auto;
-  box-shadow: 0, 4px, 8px, 0, rgba(0,0,0,0.2);
   transition: 0.3s;
   margin-bottom: 20px;
   position: static;
   width: 380px;
   height: 550px;
   border-radius: 8px;
-  flex: none;
   order: 1;
   flex-grow: 1;
   border: solid 1px grey;
-
 }
 
 .card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
-  
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1); 
 }
 
 .container {
@@ -237,6 +233,7 @@ ul li {
   border-color: #396df2;
   border-width: 1px;
   background-color: transparent;
+  color: #396df2;
 }
 
 .text {
@@ -388,5 +385,5 @@ ul li {
 }
 
 #malik {
-  text-decoration: none
+  text-decoration: none;
 }
