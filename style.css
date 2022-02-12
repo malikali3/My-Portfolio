@@ -136,8 +136,8 @@ p {
   position: relative;
   width: 117px;
   height: 24px;
-  left: 30px;
-  top: 100px;
+  left: 20px;
+  top: 250px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -154,7 +154,7 @@ ul li {
   /* to make all the elements display in line */
   display: inline;
   position: relative;
-  top: 250px;
+  top: 280px;
   margin: 10px;
   right: 30px;
 }
@@ -212,15 +212,6 @@ ul li {
   color: #7f8cff;
 }
 
-ul li {
-  /* to make all the elements display in line */
-  display: inline;
-  position: relative;
-  top: 250px;
-  margin: 10px;
-  right: 30px;
-}
-
 .card1 {
   grid-template-columns: auto;
   transition: 0.3s;
@@ -232,7 +223,7 @@ ul li {
   border-radius: 25px;
   order: 1;
   flex-grow: 1;
-  border: thin 1px grey;
+  border: solid 1px grey;
   background-color: white;
 }
 
@@ -656,20 +647,6 @@ ul li {
   border-color: transparent;
 }
 
-#malik {
-  text-decoration: none;
-}
-
-.greyrect {
-  position: relative;
-  top: 20px;
-  left: 300px;
-  width: 74.7px;
-  height: 17.21px;
-  background: #7f8cff;
-  transform: rotate(-23.18deg);
-}
-
 .greyrect2 {
   position: relative;
   width: 76.17px;
@@ -715,7 +692,6 @@ ul li {
   color: black;
   height: 20px;
 }
-
 
 #conimgs {
   position: relative;
