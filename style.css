@@ -215,7 +215,7 @@ ul li {
 .card1 {
   grid-template-columns: auto;
   transition: 0.3s;
-  margin: 20px;
+  margin: 28px;
   position: relative;
   width: 320px;
   height: 550px;
@@ -223,7 +223,6 @@ ul li {
   border-radius: 25px;
   order: 1;
   flex-grow: 1;
-  border: solid 1px grey;
   background-color: white;
 }
 
@@ -520,8 +519,8 @@ ul li {
   color: blue;
   padding: 4px 12px;
   position: relative;
-  width: 100px;
-  height: 35px;
+  width: 150px;
+  height: 45px;
   left: 30px;
   top: 10px;
   border-radius: 8px;
@@ -531,6 +530,7 @@ ul li {
   border-color: #396df2;
   border-width: 1px;
   background-color: transparent;
+  font-size: 17px;
 }
 
 .resume123:hover {
@@ -761,4 +761,10 @@ ul li {
   right: 12px;
   left: 220px;
   color: grey;
+}
+
+.buttons{
+  display: inline;
+  position: relative;
+  top: -100px;
 }
