@@ -1,3 +1,216 @@
+body {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 1px;
+  top: 1px;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+#bars {
+  margin: 6px 0;
+  position: relative;
+  top: -3px;
+  left: 300px;
+  color: #6070ff;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+h1 {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.circle {
+  background-image: url("imgs/circle.png");
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 210px;
+  top: 110px;
+  box-sizing: border-box;
+}
+
+.lineoncircle {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 213px;
+  top: 113px;
+  background: #6070ff;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+}
+
+.tcircle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 350px;
+  top: 80px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.greyrect {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 350px;
+  top: 165.79px;
+  background: #ebebff;
+  transform: rotate(-30deg);
+}
+
+.bigcurve {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  left: 380px;
+  top: 180px;
+  background: transparent;
+}
+
+.pizzaimg {
+  position: absolute;
+  width: 20px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 161.47px;
+  background: transparent;
+}
+
+#secondh1 {
+  position: relative;
+  width: 327px;
+  height: 170px;
+  left: 24px;
+  top: 170px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px;
+}
+
+p {
+  position: relative;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 220px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px;
+}
+
+.con {
+  position: relative;
+  width: 117px;
+  height: 24px;
+  left: 30px;
+  top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px;
+}
+
+ul li {
+  /* to make all the elements display in line */
+  display: inline;
+  position: relative;
+  top: 250px;
+  margin: 10px;
+  right: 30px;
+}
+
+.halfcircle {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 650px;
+  background: transparent;
+}
+
+.tcircle2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 800px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.tcurve {
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
+  top: 670px;
+  background: transparent;
+  transform: rotate(69.41deg);
+}
+
+.trect {
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 191.82px;
+  top: 850px;
+  background: #ebebff;
+  transform: rotate(23.34deg);
+}
+
+.purcircle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 830px;
+  background: transparent;
+}
+
+#malik {
+  text-decoration: none;
+  color: #7f8cff;
+}
 
 p {
   position: relative;
@@ -47,14 +260,16 @@ ul li {
 .card1 {
   grid-template-columns: auto;
   transition: 0.3s;
-  margin-bottom: 20px;
-  position: static;
-  width: 380px;
+  margin: 20px;
+  position: relative;
+  width: 320px;
   height: 550px;
-  border-radius: 8px;
+  top: -1200px;
+  border-radius: 25px;
   order: 1;
   flex-grow: 1;
-  border: solid 1px grey;
+  border: thin 1px grey;
+  background-color: white;
 }
 
 .card1:hover {
@@ -64,26 +279,29 @@ ul li {
 .container {
   display: grid;
   position: relative;
-  top: 90px;
+  height: 2000px;
+  top: 500px;
   left: 50px;
+  background-color: #e5e5e5;
+  border-radius: 50px;
 }
 
 #port1 {
   margin: 20px;
   position: relative;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 #port2 {
   margin: 20px;
   position: relative;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 #port3 {
   margin: 20px;
   position: relative;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 .title {
@@ -183,7 +401,7 @@ ul li {
   width: 8px;
   height: 8px;
   left: 210px;
-  top: -65px;
+  top: -67px;
   flex: none;
   order: 1;
   margin: 1px 12px;
@@ -231,12 +449,15 @@ ul li {
   order: 1;
   margin: 1px 10px;
   border-color: transparent;
-  color: #7f8cff;
+  color: blue;
+  
 }
 
 .html:hover {
-  background-color: greenyellow;
+  background-color: #6070ff;
+  color: whitesmoke;
 }
+
 
 .css {
   display: flex;
@@ -253,11 +474,12 @@ ul li {
   order: 1;
   margin: 1px 10px;
   border-color: transparent;
-  color: #6070ff;
+  color: blue;
 }
 
 .css:hover {
-  background-color: aqua;
+  background-color: #6070ff;
+  color: whitesmoke;
 }
 
 .js {
@@ -275,11 +497,12 @@ ul li {
   order: 1;
   margin: 1px 10px;
   border-color: transparent;
-  color: #6070ff;
+  color: blue;
 }
 
 .js:hover {
-  background-color: blueviolet;
+  background-color: #6070ff;
+  color: whitesmoke;
 }
 
 .sp {
@@ -299,11 +522,12 @@ ul li {
   border-color: #396df2;
   border-width: 1px;
   background-color: transparent;
-  color: #396df2;
+  color: blue;
 }
 
 .sp:hover {
-  background-color: #172b4d;
+  background-color: #6070ff;
+  color: whitesmoke;
 }
 
 .text {
@@ -320,26 +544,33 @@ ul li {
   align-items: center;
   color: #172b4d;
   position: relative;
-  top: 230px;
+  top: -30px;
   left: 30px;
+}
+
+#myselfdes{
+position: relative;
+top: -30px;
+left: 20px;
 }
 
 .about {
   position: relative;
   top: 2200px;
+  background-color: white;
 }
 
-.resume {
+.resume123 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #6070ff;
+  color: blue;
   padding: 4px 12px;
   position: relative;
   width: 100px;
   height: 35px;
-  left: -40px;
-  top: 280px;
+  left: 30px;
+  top: 10px;
   border-radius: 8px;
   flex: none;
   order: 1;
@@ -347,6 +578,11 @@ ul li {
   border-color: #396df2;
   border-width: 1px;
   background-color: transparent;
+}
+
+.resume123:hover {
+  background-color: #6070ff;
+  color: whitesmoke;
 }
 
 .myskills {
@@ -358,7 +594,7 @@ ul li {
 
 #skill {
   position: relative;
-  top: 150px;
+  top: -250px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -372,7 +608,7 @@ ul li {
 
 #frame {
   position: relative;
-  top: 240px;
+  top: -150px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -491,4 +727,105 @@ ul li {
   position: relative;
   left: 200px;
   top: 430px;
+}
+
+#arrowd {
+  position: absolute;
+  height: 24px;
+  right: 12px;
+  left: 220px;
+  top: 190px;
+  color: grey;
+}
+
+#jspic {
+  position: relative;
+  left: -40px;
+  top: 50px;
+}
+
+.jstxt {
+  position: relative;
+  left: -40px;
+  top: -50px;
+  font-size: x-large;
+  color: black;
+  height: 20px;
+}
+
+
+#conimgs {
+  position: relative;
+  top: -260px;
+  left: 20px;
+}
+
+.con2 {
+  position: relative;
+  width: 117px;
+  height: 24px;
+  left: 30px;
+  top: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px;
+}
+
+.htmltxt {
+  position: relative;
+  left: -30px;
+  top: -180px;
+  font-size: x-large;
+  color: black;
+  height: 20px;
+}
+
+#htmlpic {
+  position: relative;
+  left: -40px;
+  top: 50px;
+}
+
+.csstxt {
+  position: relative;
+  left: -30px;
+  top: -310px;
+  font-size: x-large;
+  color: black;
+  height: 20px;
+}
+
+#csspic {
+  position: relative;
+  left: -40px;
+  top: 40px;
+}
+
+.landes {
+  margin: 10px;
+}
+
+#arrowr {
+  position: absolute;
+  height: 24px;
+  right: 12px;
+  left: 220px;
+  top: 580px;
+  color: grey;
+}
+
+#arrowr1 {
+  position: absolute;
+  height: 24px;
+  right: 12px;
+  left: 220px;
+  top: 630px;
+  color: grey;
 }
