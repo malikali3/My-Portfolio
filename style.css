@@ -212,42 +212,6 @@ ul li {
   color: #7f8cff;
 }
 
-p {
-  position: relative;
-  width: 327px;
-  height: 146px;
-  left: 24px;
-  top: 220px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px;
-}
-
-.con {
-  position: relative;
-  width: 117px;
-  height: 24px;
-  left: 12px;
-  top: 240px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 8px;
-}
-
 ul li {
   /* to make all the elements display in line */
   display: inline;
@@ -264,7 +228,7 @@ ul li {
   position: relative;
   width: 320px;
   height: 550px;
-  top: -1200px;
+  top: -600px;
   border-radius: 25px;
   order: 1;
   flex-grow: 1;
@@ -450,14 +414,12 @@ ul li {
   margin: 1px 10px;
   border-color: transparent;
   color: blue;
-  
 }
 
 .html:hover {
   background-color: #6070ff;
   color: whitesmoke;
 }
-
 
 .css {
   display: flex;
@@ -548,10 +510,10 @@ ul li {
   left: 30px;
 }
 
-#myselfdes{
-position: relative;
-top: -30px;
-left: 20px;
+#myselfdes {
+  position: relative;
+  top: -30px;
+  left: 20px;
 }
 
 .about {
@@ -594,21 +556,22 @@ left: 20px;
 
 #skill {
   position: relative;
-  top: -250px;
+  top: 360px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #lan {
   position: relative;
-  top: 180px;
+  top: -50px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  left: -60px;
 }
 
 #frame {
   position: relative;
-  top: -150px;
+  top: 460px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -734,7 +697,7 @@ left: 20px;
   height: 24px;
   right: 12px;
   left: 220px;
-  top: 190px;
+  top: 4px;
   color: grey;
 }
 
